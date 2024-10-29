@@ -1,6 +1,7 @@
 <h1>Cars Available for Rent</h1>
+
 <ul>
     <% @cars.each do |car| %>
-        <li><%= car.brand %> <%= car.model %> - $<%= car.price_per_day %> per day</li>
+        <li><%= link_to car.brand, car_path(car) %> <%= car.model %></li>
     <% end %>
 </ul>
