@@ -1,3 +1,29 @@
 <h1>About Us</h1>
-<p>Welcome to our Car Rental Service!</p>
+
+<div class="car-detail-container">
+    <p>
+        The Car Rental project is a web application that allows users to see the
+        car list  availables to be rented. The data in this application comes from
+        Faker as data sources.The data includes information on users, cars, and rentals.
+        The database is structured in three main tables: Users, Cars, and Rentals.
+    </p>
+    <ul>
+        <li> The Users table stores information such as the user’s name, email, and password.</li>
+        <li>The Cars table includes details about each car, like brand, model, year, and daily rental price.</li>
+        <li>The Rentals table connects users with cars and stores information on rental start and end dates.</li>
+    </ul>
+
+    <p>
+        These tables relate to each other through foreign keys, with each rental entry
+        linking a user to a car. The database schema and relationships are shown in the
+        ERD (Entity Relationship Diagram) below.
+    </p>
+</div>
+
+<h2>ERD ( Entity Relationship Diagram )</h2>
+
+<div class="erd-container">
+    <%= image_tag 'car_rental Diagram.png', alt: 'ERD Diagram' %>
+</div>
+
 

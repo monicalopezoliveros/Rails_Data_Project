@@ -90,3 +90,17 @@ body {
     height: auto;              /* Mantiene la proporción del logo */
   }
 
+  h1, h2 {
+    text-align: center;
+    margin: 20px 0; /* Adds some vertical spacing */
+}
+
+.erd-container {
+    max-width: 750px;      /* Ancho máximo para el contenedor */
+    margin: 50px auto;     /* Centra el contenedor horizontalmente y agrega espacio superior */
+    padding: 20px;         /* Espacio interno */
+    border: 1px solid #ddd; /* Borde alrededor del contenedor */
+    border-radius: 8px;    /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el contenedor */
+  }
