@@ -24,14 +24,14 @@ body {
   }
 
   header, nav {
-    background-color: #333;
+    background-color: #08643c;
     color: #fff;
     padding: 15px;
     text-align: center;
   }
 
   a {
-    color: #3498db;
+    color: #e28743;
     text-decoration: none;
   }
 
@@ -77,3 +77,16 @@ body {
   .car-detail-container p {
     margin: 10px 0;        /* Espacio entre los párrafos */
   }
+
+  .menu-container {
+    display: flex;              /* Usamos flexbox para alinear el logo y el menú */
+    align-items: center;       /* Alineamos verticalmente el logo y el menú */
+    justify-content: space-between; /* Espacio entre el logo y el menú */
+    padding: 10px;             /* Espaciado alrededor del contenedor */
+  }
+
+  .logo {
+    width: 250px;               /* Ajusta el tamaño del logo */
+    height: auto;              /* Mantiene la proporción del logo */
+  }
+

@@ -11,12 +11,17 @@
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li><%= link_to 'Home', root_path %></li>
-        <li><%= link_to 'About', about_path %></li>
-      </ul>
-    </nav>
+    <header>
+      <div class="menu-container">
+        <%= image_tag 'logo_car_rental.png', class: 'logo' %>
+        <nav>
+          <ul>
+            <li><%= link_to 'Home', root_path %></li>
+            <li><%= link_to 'About', about_path %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <%= yield %>
   </body>
