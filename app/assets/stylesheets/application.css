@@ -90,10 +90,11 @@ body {
     height: auto;              /* Mantiene la proporción del logo */
   }
 
+
   h1, h2 {
     text-align: center;
     margin: 20px 0; /* Adds some vertical spacing */
-}
+  }
 
 .erd-container {
     max-width: 750px;      /* Ancho máximo para el contenedor */
@@ -104,3 +105,39 @@ body {
     background-color: #f9f9f9; /* Fondo claro */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el contenedor */
   }
+
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .cars-list {
+    max-width: 800px;       /* Define un ancho máximo para el contenedor */
+    margin: 0 auto;         /* Centra el contenedor horizontalmente */
+    padding: 20px;          /* Añade un espacio interno */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cars-list ul {
+    list-style-type: none;  /* Quita los puntos de la lista */
+    padding: 0;             /* Elimina el padding predeterminado */
+    text-align: left;       /* Alinea el contenido de la lista a la izquierda */
+}
+
+.cars-list li {
+    padding: 10px 0;        /* Espacio entre elementos de la lista */
+    border-bottom: 1px solid #ddd; /* Línea divisoria entre elementos */
+}
+
+.cars-list li:last-child {
+    border-bottom: none;    /* Quita la línea del último elemento */
+}
+
+/* Paginación */
+.pagination {
+    display: flex;
+    justify-content: center; /* Centra los enlaces de paginación */
+    padding-top: 20px;
+}
