@@ -5,3 +5,5 @@
         <li><%= link_to car.brand, car_path(car) %> <%= car.model %></li>
     <% end %>
 </ul>
+
+<%= paginate @cars %>

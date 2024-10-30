@@ -46,6 +46,10 @@ gem 'faker'
 
 gem 'bcrypt', '~> 3.1.7'
 
+# Pagination Gem
+gem 'kaminari'
+
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
