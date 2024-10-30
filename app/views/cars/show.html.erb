@@ -1,4 +1,9 @@
-<h1><%= @car.brand %> <%= @car.model %></h1>
-<p>Year: <%= @car.year %></p>
-<p>Price per day: $<%= @car.price_per_day %></p>
-<%= link_to 'Back to Cars', cars_path %>
+<div class="car-detail-container">
+    <h2>Car Details</h2>
+    <p><strong>Brand:</strong><%= @car.brand %></p>
+    <p><strong>Model:</strong><%= @car.model %></p>
+    <p><strong>Year:</strong> <%= @car.year %></p>
+    <p><strong>Price per day:</strong> $<%= @car.price_per_day %></p>
+    <%= link_to 'Back to Cars', cars_path %>
+</div>
+
