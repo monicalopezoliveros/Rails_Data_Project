@@ -1,4 +1,12 @@
 <h1>Cars Available for Rent</h1>
+
+<%= form_with(url: cars_path, method: :get, local: true) do %>
+  <%= label_tag :query, "Search Cars:" %>
+  <%= text_field_tag :query, params[:query], placeholder: "Enter brand, model, etc." %>
+  <%= submit_tag "Search" %>
+<% end %>
+
+
 <div class="cars-list">
     <ul>
         <% @cars.each do |car| %>
